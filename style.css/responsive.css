@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 768px;
+        font-size: 1.3rem;
+    }
+    h1{
+        text-align: left;
+    }
+    .none{
+        display: inline-block;
+    }
+    .to-do{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        gap: 30px;
+    }
+    .icons{
+        padding: 0;
+        flex-basis: calc(100% / 3 - 60px / 3);
+    }
+    .icons:first-child{
+        padding: 0;
+    }
+    .brands{
+        padding: 10px 40px;
+        border-radius: 35%;
+    }
+    #banner{
+        display: inline-block;
+        width: 705px;
+        margin-bottom: 30px;
+    }
+    .cube{
+        margin-bottom: 30px
+    }
+    #tiramisù{
+        padding: 0;
+        float: left;
+        margin-right: 10px;
+        position: static;
+    }
+    .list-footer{
+        display: inline-block;
+    }
+    a:first-child{
+        padding: 0;
+    }
+    .list-footer > *{
+        padding-left: 15px;
+    }
+}
