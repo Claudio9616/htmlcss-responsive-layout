@@ -1,3 +1,99 @@
-body{
-    background-color: brown;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+/* GENERICS */
+body{
+    font-family: 'Helvetica Neue', sans-serif;
+}
+header{
+    font-family: 'Nerko One', cursive;
+    background-color: white;
+    margin: 20px 0;
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #FF9614;
+}
+h4{
+    color: #999999;
+    padding: 20px 0;
+}
+/* UTILITIES */
+.container{
+    margin: auto;
+    max-width: 576px;
+    padding: 0 30px;
+}
+.bg-gray{
+    background-color: #F6F5F3;
+}
+.bg-white{
+    background-color: white;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* AD HOC */
+.col ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.col:first-child{
+    color: #4E3969;
+    font-size: 2rem;
+    font-weight: 800;    
+}
+/* lui dovrà diventare un display inline-block */
+.none{
+    display: none;    
+}
+li:first-child{
+    color: #F7972E;
+}
+li:last-child{
+    padding: 5px;
+    background-color: #F7972E;
+    margin-left: 10px;
+    border-radius: 40%;
+    color: white;
+}
+.video{
+    margin-top: 20px;
+}
+.container.bg-white{
+    padding: 30px;
+    border: 1px solid;
+}
+.container.bg-laightgray{
+    padding: 0 15px;
+    background-color: #F6F5F9;
+}
+.bg-laightgray .row{
+    padding: 10px 0;
+}
+.calorie{
+    background-color: #7B69A2;
+    color: white;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+.info{
+    color: #F7972E;
+    font-weight: 800;
+}
+.border{
+    margin: 20px 0;
+    border-bottom: 1px solid #DEDEDE;
+}
+.diet{
+    padding-bottom: 10px;
+}
+/* elimina nelle classi icons tutto ciò che stanno ereditando */
