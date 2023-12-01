@@ -17,6 +17,9 @@ h1{
     font-size: 3.5rem;
     color: #FF9614;
 }
+h2{
+    font-size: 2rem;
+}
 h4{
     color: #999999;
     padding: 20px 0;
@@ -55,10 +58,10 @@ h4{
 .none{
     display: none;    
 }
-li:first-child{
+.star{
     color: #F7972E;
 }
-li:last-child{
+.rate{
     padding: 5px;
     background-color: #F7972E;
     margin-left: 10px;
@@ -96,4 +99,85 @@ li:last-child{
 .diet{
     padding-bottom: 10px;
 }
-/* elimina nelle classi icons tutto ciò che stanno ereditando */
+.to-do{
+    list-style-type: none;
+}
+.icons .fa-solid{
+    color:#F7972E;
+}
+.icons:first-child{
+    padding-top: 20px;    
+}
+.icons{
+    padding-bottom: 10px;
+}
+.style-brands{
+    list-style-type: none;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.brands{
+    padding: 10px;
+    background-color: white;
+    border-radius: 40%;
+}
+#blue{
+    color: #1A77F3;
+}
+#azure{
+    color: #009EFF;
+}
+#red{
+    color: red;
+}
+.none-brands{
+    display: none;
+}
+/* lui dovrà diventare display inline-block */
+#banner{
+    width: 515px;
+    height: 70px;
+    display: none;
+}
+.cube{
+    height: 10px;
+    width: 100px;
+    border-bottom: 2px solid #F7972E;
+}
+#tiramisù{
+    width: 330px;
+    position: relative;
+    left: 90px;
+    top: 20px;
+    padding-bottom: 30px;
+}
+.text p{
+    line-height: 1.8rem;
+    padding-bottom: 50px;
+}
+.bg-purple{
+    background-color: #7C69A4;
+    color: white;
+    padding: 20px 0;
+}
+.bg-purple p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.asd{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 65px;
+}
+a{
+    color: white;   
+    flex-basis: calc(100% / 4);
+}
+a:first-child{
+    padding-left: 35px;
+}
+a:last-child{
+    margin: auto;
+    padding-top: 10px;
+}
